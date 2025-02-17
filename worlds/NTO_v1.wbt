@@ -1,0 +1,792 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5768685408658804 0.5768685449489142 0.5783125179414609 2.092957226231533
+  position 0.022818749992482883 -0.43996095541160596 6.3730267660872855
+  follow "ROBBO_1"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RectangleArena {
+  floorSize 2 2
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "NTO_back.jpg"
+      ]
+      filtering 1
+    }
+    metalness 0
+    IBLStrength 8
+    textureTransform TextureTransform {
+      scale 0.25 0.25
+    }
+  }
+}
+Solid {
+  translation 0.24366510762782514 0.24373217548254159 0.03496076
+  rotation 1.763332520963821e-16 -9.62868989462804e-16 -1 0.06330927597634836
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-2.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "2"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity 6.680516260413199e-18 -1.2175973182813613e-18 -3.906124675907538e-18
+  angularVelocity 9.640784932338727e-16 7.554759093285587e-18 9.545217679959127e-18
+}
+Solid {
+  translation 0.22938172091542278 0.6701134937300327 0.03496076
+  rotation 3.441267414691669e-15 1.550925619331299e-15 1 0.004650431167821122
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-3.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "3"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity -2.4172453440924546e-17 -4.875624390202017e-18 -6.528061333490881e-17
+  angularVelocity 1.5216408978586382e-17 5.9009492341255195e-18 6.25327797182628e-17
+}
+Solid {
+  translation -0.5007839999732917 0.6840950451218134 0.03496076
+  rotation -4.494041830610351e-15 5.082832569889678e-15 0.9999999999999999 0.005678794429280218
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-4.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "4"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity -4.026492079399616e-18 -2.137390763723819e-17 2.0304653676142292e-17
+  angularVelocity 5.046482532419808e-16 4.673682963898535e-16 7.242461117759565e-19
+}
+Solid {
+  translation -0.6806333217968297 0.6756920230887125 0.03496076000000001
+  rotation -6.051126538360298e-15 1.3074580561169047e-15 1 0.004649354449474115
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-5.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "5"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity -5.182619170147009e-17 6.713928265797291e-18 5.421577625786849e-19
+  angularVelocity -9.65510604250819e-16 -1.4681185408915765e-15 1.0548125166880983e-16
+}
+Solid {
+  translation -0.654331 0.248164 0.03496076000000001
+  rotation 3.0082037329537666e-15 5.263156111592129e-15 1 0.013136232027234308
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-6.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "6"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity 2.884239047389138e-17 6.034053124943661e-18 -4.9095171651307963e-17
+  angularVelocity -5.9249331580338e-18 1.922138996213563e-15 7.030080387876178e-17
+}
+Solid {
+  translation 0.2489903445381181 -0.0013262483756755136 0.03496076
+  rotation 3.716799371554681e-16 -2.5030786568317207e-15 1 0.023826687358769215
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-7.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "7"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity 3.0619771183094787e-17 1.1828185548146728e-17 3.570867205317243e-17
+  angularVelocity -3.440750674324725e-18 4.869696815483254e-16 -7.761397868198474e-17
+}
+Robot {
+  translation 0.006139499628338216 -0.016799715770702692 0.014000445393330325
+  rotation -0.00022727183802409093 4.6029071735711314e-05 -0.9999999731144179 0.7840451604687563
+  children [
+    Solid {
+      translation 0 0 0.002
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-9.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.01
+          }
+        }
+      ]
+      name "ArUcoMarker"
+    }
+    Solid {
+      translation 0.05 0 0.004
+      children [
+        Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.002
+          }
+        }
+      ]
+      name "JustMarker"
+    }
+    Solid {
+      translation 0.05 0 -0.006
+      children [
+        DEF PassiveWheel_sp Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.008
+          }
+        }
+      ]
+      name "BPassiveWheel"
+      boundingObject USE PassiveWheel_sp
+      physics DEF PassiveWheel_ph Physics {
+        density -1
+        mass 0.1
+        centerOfMass [
+          0 0 0
+        ]
+        inertiaMatrix [
+          2.5600000000000005e-06 2.5600000000000005e-06 2.5600000000000005e-06
+          0 0 0
+        ]
+      }
+    }
+    Solid {
+      translation -0.05 0 -0.006
+      children [
+        USE PassiveWheel_sp
+      ]
+      name "FPassiveWheel"
+      boundingObject USE PassiveWheel_sp
+      physics USE PassiveWheel_ph
+    }
+    DEF Body Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.4 0
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.006
+        radius 0.075
+      }
+    }
+    DEF RightWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 3605.0402477832117
+        axis 0 -1 0
+      }
+      device [
+        RotationalMotor {
+          name "RightMotor"
+          controlPID 5 0 0
+          maxVelocity 20
+        }
+      ]
+      endPoint Solid {
+        translation 8.597148959650484e-05 0.07500464212303935 5.375519534057756e-05
+        rotation -0.6013116027639029 0.5652147011075976 0.5647625147204398 2.0581139001974678
+        children [
+          DEF Wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.2 0.2 0.2
+              roughness 0.7
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.01
+              radius 0.015
+            }
+            castShadows FALSE
+          }
+        ]
+        name "RightWheelCylinder"
+        boundingObject USE Wheel
+        physics DEF Physics_wh Physics {
+          density -1
+          mass 0.1
+          centerOfMass [
+            0 0 0
+          ]
+          inertiaMatrix [
+            6.458333333333334e-06 6.458333333333334e-06 1.125e-05
+            0 0 0
+          ]
+        }
+        linearVelocity -6.792844170586983e-08 9.488852828070089e-08 1.3117932759598552e-07
+        angularVelocity -5.619823617433513e-06 -5.3553997995375815e-06 1.612672672352663e-06
+      }
+    }
+    DEF LeftWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 3754.213299372957
+        axis 0 -1 0
+      }
+      device [
+        RotationalMotor {
+          name "LeftMotor"
+          maxVelocity 20
+        }
+      ]
+      endPoint Solid {
+        translation -4.9843647716284515e-05 -0.07500480511141662 2.774048077088703e-05
+        rotation 0.0035616515799899093 0.7073831248020158 -0.7068213560606091 3.134469252198903
+        children [
+          USE Wheel
+        ]
+        name "LeftWheelCylinder"
+        boundingObject USE Wheel
+        physics USE Physics_wh
+        linearVelocity 1.2193087573327698e-07 -1.0851301320106113e-07 1.61614119420513e-07
+        angularVelocity 8.208442951440357e-06 8.53885811655025e-06 1.6114952399364148e-06
+      }
+    }
+  ]
+  name "ROBBO_1"
+  model "ROBBO_v1"
+  boundingObject USE Body
+  physics Physics {
+    density -1
+    mass 2
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.0028185 0.0028185 0.005625
+      0 0 0
+    ]
+  }
+  controller "FirstRobotContoller"
+  linearVelocity 3.4273191447751353e-08 2.059267799109248e-08 1.1723365777139722e-08
+  angularVelocity -1.0401640279475862e-06 -7.495587002296429e-07 1.6114182133502499e-06
+}
+Robot {
+  translation -0.4311384997924216 -0.1106895484054415 0.014119101354038334
+  rotation -0.0010573963661017545 -0.0013440530808266633 -0.9999985377160513 1.566781470477167
+  children [
+    Solid {
+      translation 0 0 0.002
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-10.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.01
+          }
+        }
+      ]
+      name "ArUcoMarker"
+    }
+    Solid {
+      translation 0.05 0 0.004
+      children [
+        Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.002
+          }
+        }
+      ]
+      name "JustMarker"
+    }
+    Solid {
+      translation 0.05 0 -0.006
+      children [
+        DEF PassiveWheel_sp Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.008
+          }
+        }
+      ]
+      name "BPassiveWheel"
+      boundingObject USE PassiveWheel_sp
+      physics DEF PassiveWheel_ph Physics {
+        density -1
+        mass 0.1
+        centerOfMass [
+          0 0 0
+        ]
+        inertiaMatrix [
+          2.5600000000000005e-06 2.5600000000000005e-06 2.5600000000000005e-06
+          0 0 0
+        ]
+      }
+    }
+    Solid {
+      translation -0.05 0 -0.006
+      children [
+        USE PassiveWheel_sp
+      ]
+      name "FPassiveWheel"
+      boundingObject USE PassiveWheel_sp
+      physics USE PassiveWheel_ph
+    }
+    DEF Body Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.4 0
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.006
+        radius 0.075
+      }
+    }
+    DEF RightWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 3408.3431477241047
+        axis 0 -1 0
+      }
+      device [
+        RotationalMotor {
+          name "RightMotor"
+          controlPID 5 0 0
+          maxVelocity 20
+        }
+      ]
+      endPoint Solid {
+        translation 2.125877195021797e-05 0.07500464212303934 -9.91402171911793e-05
+        rotation -0.10085385436946798 -0.7037840860555139 -0.7032186432922745 2.9404081493972853
+        children [
+          DEF Wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0.2 0.2 0.2
+              roughness 0.7
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.01
+              radius 0.015
+            }
+            castShadows FALSE
+          }
+        ]
+        name "RightWheelCylinder"
+        boundingObject USE Wheel
+        physics DEF Physics_wh Physics {
+          density -1
+          mass 0.1
+          centerOfMass [
+            0 0 0
+          ]
+          inertiaMatrix [
+            6.458333333333334e-06 6.458333333333334e-06 1.125e-05
+            0 0 0
+          ]
+        }
+        linearVelocity -1.3490279173726937e-11 5.3911218865146226e-08 1.1705067940678713e-07
+        angularVelocity -4.189772582254175e-06 -9.612961863692388e-08 -5.469814951895494e-07
+      }
+    }
+    DEF LeftWheel HingeJoint {
+      jointParameters HingeJointParameters {
+        position 3542.707140506671
+        axis 0 -1 0
+      }
+      device [
+        RotationalMotor {
+          name "LeftMotor"
+          maxVelocity 20
+        }
+      ]
+      endPoint Solid {
+        translation 2.479865051381087e-06 -0.0750048051114166 -5.6989242497088544e-05
+        rotation 0.7879174280317693 0.4355973221502142 -0.4352483193986673 1.8061623320942926
+        children [
+          USE Wheel
+        ]
+        name "LeftWheelCylinder"
+        boundingObject USE Wheel
+        physics USE Physics_wh
+        linearVelocity -1.0352211648335469e-08 1.4775703983603534e-07 1.0683086053114945e-07
+        angularVelocity -1.08069856207843e-05 -1.0245862229719377e-07 -5.527147614371303e-07
+      }
+    }
+  ]
+  name "ROBBO_2"
+  model "ROBBO_v1"
+  boundingObject USE Body
+  physics Physics {
+    density -1
+    mass 2
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.0028185 0.0028185 0.005625
+      0 0 0
+    ]
+  }
+  controller "SecondRobotController"
+  linearVelocity -1.3345460074503588e-08 7.662755236044375e-08 -2.2881652884362577e-08
+  angularVelocity 2.3011230771967285e-06 -5.981515112066442e-08 -5.466748628428152e-07
+}
+Solid {
+  translation 0.456657235347607 0.6769617472114318 0.03496076
+  rotation -2.2890777991488544e-14 9.166606306702625e-15 0.9999999999999999 0.0037127762899293753
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-1.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "1"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity -1.2858886458974863e-17 4.754470361394601e-18 1.5101661786657046e-17
+  angularVelocity 6.767330229261995e-18 -4.828477346144639e-16 -1.5897563765301015e-17
+}
+Solid {
+  translation 0.6693122374060869 0.6689844096325424 0.03496076
+  rotation 1.4508898477025896e-14 -1.4322713332539793e-14 1 0.003976156402315092
+  children [
+    Solid {
+      translation 0 0 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "4x4_1000-8.jpg"
+              ]
+            }
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.05
+          }
+        }
+      ]
+    }
+    DEF AR Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.3 0.2
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 0.15 0.07
+      }
+    }
+  ]
+  name "8"
+  boundingObject USE AR
+  physics Physics {
+    density -1
+    mass 0.1
+    centerOfMass [
+      0 0 0
+    ]
+    inertiaMatrix [
+      0.00022833333333333337 0.00022833333333333337 0.00037500000000000006
+      0 0 0
+    ]
+    damping Damping {
+    }
+  }
+  linearVelocity -1.4008773740814347e-17 9.236487293079413e-18 2.826482389670157e-18
+  angularVelocity -5.006164033109101e-16 -4.746719133604151e-16 1.3290660970725275e-16
+}
+Robot {
+  translation 0 0 2
+  rotation 0 1 0 1.5708
+  children [
+    Camera {
+      fieldOfView 0.9
+      width 640
+      height 640
+      far 2
+    }
+  ]
+  name "cam"
+  controller "camera_controller"
+}
